@@ -53,7 +53,7 @@ function gerarNumeroAleatorio() {
 }
 
 function limparCampo() {
-    let chute = document.querySelector('input');
+    chute = document.querySelector('input');
     chute.value = '';
 }
 
